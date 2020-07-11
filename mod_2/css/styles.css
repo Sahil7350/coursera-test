@@ -1,0 +1,76 @@
+body {
+    background-color: lightblue;
+    font-family: "Lucida Console", Courier, monospace;
+}
+#nav-bar {
+    background-color:lightgreen;
+    margin-bottom: 15px;
+    border-radius: 0;
+    border: 0;
+    height: 80px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+	color:purple;
+}
+.navbar-brand a h1 {
+    height: auto;
+}
+#nav-list {
+    margin-top: 20px;
+}
+#nav-list a {
+    color: darkred;
+    text-transform: uppercase;
+    text-align: center;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+    height: 50px;
+    margin-top: 18px;
+}
+.navbar-header button.navbar-toggle span{
+    margin: 5px;
+}
+
+h2 {
+    text-align: center;
+}
+div div {
+    box-sizing: border-box;
+	
+}
+div div section {
+    background-color: lightblue;
+    color: white;
+    border: 1px solid black;
+    padding: 10px;
+}
+div div section h3 {
+    text-align: center;
+}
+
+.footer-elements {
+    background-color: lightgreen;
+}
+
+@media (min-width: 1200px) {
+    
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    
+}
+@media (max-width: 767px) {
+
+    #collapsable-nav {
+        background-color: lightyellow;
+    }
+    #nav-bar {
+        height: auto !important;
+    }
+}
